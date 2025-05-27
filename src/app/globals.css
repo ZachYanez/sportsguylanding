@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --sports-blue: #00c7ff;
+  --sports-green: #00d6a4;
 }
 
 @theme inline {

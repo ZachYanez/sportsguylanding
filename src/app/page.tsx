@@ -31,7 +31,7 @@ export default function Home() {
           </h2>
 
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            <div className="bg-gradient-to-br from-[var(--sports-blue)] to-[var(--sports-green)] bg-opacity-10 p-6 rounded-xl shadow-md">
+            <div className="bg-gradient-to-br from-[var(--sports-blue)] to-[var(--sports-green)] bg-opacity-10 p-6 rounded-xl shadow-md text-black">
               <h3 className="text-xl font-semibold mb-3 flex items-center">
                 <span className="text-[var(--sports-blue)] mr-2">📱</span>{" "}
                 INTELLIGENT CHAT
@@ -44,7 +44,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-[var(--sports-blue)] to-[var(--sports-green)] bg-opacity-10 p-6 rounded-xl shadow-md">
+            <div className="bg-gradient-to-br from-[var(--sports-blue)] to-[var(--sports-green)] bg-opacity-10 p-6 rounded-xl shadow-md text-black">
               <h3 className="text-xl font-semibold mb-3 flex items-center">
                 <span className="text-[var(--sports-green)] mr-2">🔍</span>{" "}
                 TRUSTED INFORMATION
@@ -57,7 +57,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="bg-gradient-to-br from-[var(--sports-blue)] to-[var(--sports-green)] bg-opacity-10 p-6 rounded-xl shadow-md sm:col-span-2 lg:col-span-1">
+            <div className="bg-gradient-to-br from-[var(--sports-blue)] to-[var(--sports-green)] bg-opacity-10 p-6 rounded-xl shadow-md sm:col-span-2 lg:col-span-1 text-black">
               <h3 className="text-xl font-semibold mb-3 flex items-center">
                 <span className="text-[var(--sports-blue)] mr-2">💾</span> SAVE
                 & ORGANIZE

@@ -119,14 +119,24 @@ export default function Home() {
 
       <footer className="bg-gray-50 dark:bg-gray-800 py-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <Link
-            href="/privacy"
-            className="text-[var(--sports-blue)] hover:underline"
-          >
-            Privacy Policy
-          </Link>
+          <div className="flex flex-col space-y-2">
+            <Link
+              href="/privacy"
+              className="text-[var(--sports-blue)] hover:underline"
+            >
+              Privacy Policy
+            </Link>
+            <a
+              href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+              className="text-[var(--sports-blue)] hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Terms of Use
+            </a>
+          </div>
           <p className="mt-2 text-sm text-gray-500">
-            © {new Date().getFullYear()} ZY MGMT Co. All rights reserved.
+            © {new Date().getFullYear()} SportsGuy. All rights reserved.
           </p>
         </div>
       </footer>
